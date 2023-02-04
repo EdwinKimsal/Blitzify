@@ -39,4 +39,17 @@ function higher(){
 //When 'Correct' is pressed.
 function correct(){
     document.getElementById('words').innerHTML = guess + ' was you number!'
+
+    document.getElementById('lower').style.display = 'none'
+    document.getElementById('correct').style.display = 'none'
+    document.getElementById('higher').style.display = 'none'
+    document.getElementById('restart').style.display = 'block'
+}
+
+//Restart System
+function restart(){
+    document.getElementById('words').innerHTML = 'Think of a whole number from 1 to 1,000,000, and press Start.'
+
+    document.getElementById('restart').style.display = 'none'
+    document.getElementById('start').style.display = 'block'
 }

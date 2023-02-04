@@ -79,3 +79,11 @@
     background-color: orangered;
     color: white;
 }
+
+/* Restart Button */
+#restart{
+    display: none;
+
+    background-color: black;
+    color: white;
+}
